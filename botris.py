@@ -19,7 +19,7 @@ class BotrisGame(object):
         else:      
             pass
     
-
+    
     def play(self):
         running = True
         # ************************* MAIN LOOP *******************************
@@ -28,7 +28,13 @@ class BotrisGame(object):
             print(self.grid)
             pass
         # *******************************************************************
-        
+
+    def game_actions(self):
+        pass
+    
+    def render_actions(self):
+        pass
+
     def draw_grid(self, screen, grid):
         pass
 
